@@ -10,7 +10,7 @@ export class AddProductComponent {
 addedProduct:IProduct= { name: '', img: '', price: '', description: '' };
 
 @Output() productSubmited = new EventEmitter<IProduct>();
-
+//mmes
 onSubmit()
 {
      this.productSubmited.emit(this.addedProduct);
